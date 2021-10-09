@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/marschall-lab/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: f502d7b557b5ef4d42755a894a6788cdebedc1e02552251e47ace2c173fd9099 
+  sha256: a1f97becfeb257c06d6c71dd42f6a47a91880e8c3bbbd66422eac5ee6bd38c46 
 
 build:
   number: 0
@@ -15,7 +15,7 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
-    - rust >=1.51
+    - rust >=1.55
 
 test:
   commands:
